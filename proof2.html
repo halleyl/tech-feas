@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    form input {
+      margin: .5rem 2rem;
+    }
+    button {
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <form name="custInfo">
+    <label>
+      Name
+      <input type="text" name="name">
+    </label>
+    <br>
+    <label>
+      Email
+      <input type="email" name="email">
+    </label>
+    <br>
+    <button value="submit" name="plantLocation" onclick="indoors()">
+      <img src="indoors.gif" alt="indoors">
+    </button>
+    <button value="submit" name="plantLocation" onclick="outdoors()">
+      <img src="outdoors.gif" alt="outdoors">
+    </button>
+  </form>
+  <p id="par"></p>
+<script src="script2.js"></script>
+</body>
+</html>

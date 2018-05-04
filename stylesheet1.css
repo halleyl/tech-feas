@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  top: 0;
+}
+section {
+  display: block;
+  width: 100%;
+  min-width: 1280px;
+  background-color: aqua;
+  padding: 5rem;
+  -webkit-mask-image: url("curve.svg");
+  mask-image: url("curve.svg");
+  -webkit-mask-size: 800px 250px;
+  mask-size: 800px 250px;
+}
+h1 {
+  font-size: 200%;
+}
+p {
+  padding: 0 2rem;
+}
+p:first-of-type {
+  padding-top: 250px;
+}
